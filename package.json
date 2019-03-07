@@ -1,7 +1,7 @@
 {
   "name": "@icedesign/yunqi-homepage-scaffold",
   "version": "1.0.0",
-  "description": "云栖大会官方首页模板，适用于信息展示类的场景",
+  "description": "浙江强驰电力",
   "files": [
     "src/",
     "build/",
@@ -63,9 +63,9 @@
   "scaffoldConfig": {
     "builder": "ice-scripts",
     "name": "ice-yunqi-homepage",
-    "title": "云栖大会官网",
+    "title": "浙江强驰电力",
     "categories": [
-      "官网模板"
+      "官网"
     ],
     "screenshot": "https://img.alicdn.com/tfs/TB1ZuTBtbwrBKNjSZPcXXXpapXa-2840-1596.png"
   },

@@ -25,23 +25,23 @@ export default class Banner extends Component {
           <div key="content" style={styles.content}>
             <div style={styles.title}>
               <img
-                src="https://img.alicdn.com/tfs/TB1V0pgaPrguuRjy0FeXXXcbFXa-1233-322.gif"
+                src={require('./images/logo2.png')}
                 alt=""
                 style={styles.titlePic}
               />
             </div>
 
             <div style={styles.time}>
-              <img
+              {/* <img
                 src="https://img.alicdn.com/tfs/TB1eBaZGN9YBuNjy0FfXXXIsVXa-896-68.png"
                 alt=""
                 style={styles.timePic}
-              />
+              /> */}
             </div>
 
             <div style={styles.button}>
               <a href="#" style={styles.link}>
-                立即购票
+                欢迎
               </a>
             </div>
           </div>
@@ -54,9 +54,9 @@ export default class Banner extends Component {
 const styles = {
   container: {
     width: '100%',
-    height: '850px',
+    height: '500px',
     marginTop: '78px',
-    backgroundImage: `url(${require('./images/banner.png')})`,
+    backgroundImage: `url(${require('./images/b22.jpg')})`,
     backgroundSize: 'cover',
     backgroundPosition: '50%',
     backgroundRepeat: 'no-repeat',
@@ -66,11 +66,14 @@ const styles = {
     margin: '0 auto',
   },
   title: {
-    paddingTop: '215px',
+    paddingTop: '150px',
   },
   titlePic: {
-    width: 'auto',
-    height: '148px',
+    // width: 'auto',
+    // height: '148px',
+    // display: 'block',
+    width: '500px',
+    height: 'auto',
     display: 'block',
   },
   time: {

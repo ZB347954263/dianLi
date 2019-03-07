@@ -8,11 +8,31 @@ const headerMenuConfig = [
     path: '/',
   },
   {
-    name: '嘉宾',
+    name: '关于我们',
     path: '/guests',
   },
   {
-    name: '合作伙伴',
+    name: '产品中心',
+    path: '/partner',
+  },
+  {
+    name: '新闻资讯',
+    path: '/partner',
+  },
+  {
+    name: '客户案例',
+    path: '/partner',
+  },
+  {
+    name: '人力资源',
+    path: '/partner',
+  },
+  {
+    name: '企业荣誉',
+    path: '/partner',
+  },
+  {
+    name: '联系我们',
     path: '/partner',
   },
 ];

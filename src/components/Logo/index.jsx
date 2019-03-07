@@ -4,11 +4,11 @@ export default class Logo extends Component {
   render() {
     return (
       <div style={styles.container}>
-        <img
+        {/* <img
           src={require('./images/logo.png')}
           style={styles.logo}
           alt="logo"
-        />
+        /> */}
         <img
           src={require('./images/logo2.png')}
           style={styles.logo2}
@@ -30,7 +30,8 @@ const styles = {
     marginRight: '16px',
   },
   logo2: {
-    width: '152px',
-    marginTop: '5px',
+    // width: '152px',
+    // marginTop: '5px',
+    width: '300px'
   },
 };
