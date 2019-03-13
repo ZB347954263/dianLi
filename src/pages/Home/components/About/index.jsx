@@ -5,8 +5,8 @@ const getData = () => {
   return Array.from({ length: 3 }).map((item, index) => {
     return {
       index: `0${index + 1}`,
-      title: '云存储特惠',
-      desc: '上云仅 <b>33元/年</b> ，降低企业成本',
+      title: '为什么选择我们？',
+      desc: '我们专业制造高低压成套电器，高低压成套电器，高低压成套电器，高低压成套电器...',
       link: '#',
     };
   });

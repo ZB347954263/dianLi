@@ -16,8 +16,8 @@ export default class Sponsor extends Component {
     return (
       <div style={styles.container}>
         <div style={styles.content}>
-          <div style={styles.mainTitle}>SPONSOR</div>
-          <div style={styles.mainDesc}>赞助商</div>
+          {/* <div style={styles.mainTitle}>SPONSOR</div> */}
+          {/* <div style={styles.mainDesc}>赞助商</div> */}
           <ul style={styles.items}>
             <li style={styles.item}>
               <p style={styles.subtit}>战略合作伙伴</p>

@@ -11,31 +11,14 @@ export default () => {
           <Col l="18">
             <p style={styles.title}>浙江强驰电力科技有限公司</p>
             <p style={styles.desc}>
-            浙江强驰电力科技有限公司是由阿里巴巴集团主办的全球顶级科技大会，汇聚时代最强大脑，描绘新技术发展趋势和蓝图，展现云计算、大数据、人工智能等蓬勃发展的科技生态全景。从2015年到2017年，云栖大会系列活动已经累计吸引超过十万人现场参与，数千万人在线参与。2018年云栖大会将在深圳（
-              <a href="#" style={styles.link}>
-                <b>精彩回顾</b>
-              </a>
-              ）、南京（
-              <a href="#" style={styles.link}>
-                <b>精彩回顾</b>
-              </a>
-              ）、上海（
-              <a href="#" style={styles.link}>
-                <b>精彩回顾</b>
-              </a>
-              ）、武汉（
-              <a href="#" style={styles.link}>
-                <b>精彩回顾</b>
-              </a>
-              ）、重庆（
-              <a href="#" style={styles.link}>
-                <b>8.24同步直播中</b>
-              </a>
-              ）、杭州（
-              <a href="#" style={styles.link}>
-                <b>9.19-9.22，立即抢购</b>
-              </a>
-              ）、广州、北京等地陆续举办，邀您一起驱动数字中国。
+            @2019 http://www.qiangchidl.com 浙江强驰电力科技有限公司版权所有
+            </p>
+            <p style={styles.desc}>
+            <img
+                src={require('./images/guohui.png')}
+                alt=""
+                style={styles.guohui}
+              />鄂ICP备19006241号
             </p>
           </Col>
           <Col l="6">
@@ -46,9 +29,9 @@ export default () => {
                 style={styles.qrcode}
               />
               <div style={styles.textBox}>
-                <p style={styles.subtit}>下载 App</p>
+                <p style={styles.subtit}>下载</p>
                 <p style={styles.text}>
-                  随时了解最新大会议程获取大会温馨提醒和参会二维码
+                  随时了解
                 </p>
               </div>
             </div>
@@ -80,6 +63,10 @@ const styles = {
     textAlign: 'justify',
     marginTop: '14px',
     maxWidth: '830px',
+  },
+  guohui:{
+    height:'14px',
+    marginRight:'3px',
   },
   link: {
     color: '#00b7d3',

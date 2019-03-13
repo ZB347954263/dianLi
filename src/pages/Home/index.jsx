@@ -15,6 +15,8 @@ import ProductFeature from './components/ProductFeature';
 import FeatureList from './components/FeatureList';
 import FeatureDisplay from './components/FeatureDisplay';
 import ProductIntro from './components/ProductIntro';
+import BrandList from './components/BrandList';
+import CoBranding from './components/CoBranding';
 // import AssetInfoDisplay from './components/AssetInfoDisplay';
 
 export default class Home extends Component {
@@ -47,7 +49,9 @@ export default class Home extends Component {
         <Speakers />
         <Address /> */}
         <About />
-        <Sponsor />
+        {/* <Sponsor /> */}
+        <BrandList />
+        {/* <CoBranding /> */}
       </div>
     );
   }
