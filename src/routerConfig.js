@@ -5,6 +5,7 @@
 import Home from './pages/Home';
 import Guests from './pages/Guests';
 import Partner from './pages/Partner';
+import PhotosPage from './pages/Photos';
 
 const routerConfig = [
   {
@@ -14,6 +15,10 @@ const routerConfig = [
   {
     path: '/partner',
     component: Partner,
+  },
+  {
+    path: '/photos',
+    component: PhotosPage,
   },
   {
     path: '/',
