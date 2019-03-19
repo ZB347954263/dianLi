@@ -5,7 +5,7 @@
 import Home from './pages/Home';
 import Guests from './pages/Guests';
 import Partner from './pages/Partner';
-import PhotosPage from './pages/Photos';
+import PhotosPage from './pages/photos';
 
 const routerConfig = [
   {
