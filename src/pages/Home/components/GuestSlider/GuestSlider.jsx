@@ -24,6 +24,7 @@ export default class GuestSlider extends Component {
       className: 'product-slider',
       autoplay: true,
       centerMode: true,
+      
       infinite: true,
       centerPadding: '0',
       slidesToShow: 5,
