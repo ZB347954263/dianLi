@@ -10,7 +10,7 @@ export default class Logo extends Component {
           alt="logo"
         /> */}
         <img
-          src={require('./images/logo2.png')}
+          src={require('./images/logo3.png')}
           style={styles.logo2}
           alt="logo"
         />
@@ -32,6 +32,6 @@ const styles = {
   logo2: {
     // width: '152px',
     // marginTop: '5px',
-    width: '300px'
+    // width: '300px'
   },
 };

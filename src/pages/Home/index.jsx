@@ -17,6 +17,7 @@ import FeatureDisplay from './components/FeatureDisplay';
 import ProductIntro from './components/ProductIntro';
 import BrandList from './components/BrandList';
 import CoBranding from './components/CoBranding';
+import GuestSlider from './components/GuestSlider';
 // import AssetInfoDisplay from './components/AssetInfoDisplay';
 
 export default class Home extends Component {
@@ -35,9 +36,10 @@ export default class Home extends Component {
     return (
       <div>
         <Banner />
-        <CardItems />
-        <ProductList />
-        <FeatureList />
+        {/*<CardItems />*/}
+        <GuestSlider/>
+        {/*<ProductList />*/}
+        {/*<FeatureList />*/}
         {/* <ProductIntro /> */}
         {/* <FeatureDisplay /> */}
         {/* <AssetInfoDisplay />
@@ -48,9 +50,9 @@ export default class Home extends Component {
         <Events />
         <Speakers />
         <Address /> */}
-        <About />
+        {/*<About />*/}
         {/* <Sponsor /> */}
-        <BrandList />
+        {/*<BrandList />*/}
         {/* <CoBranding /> */}
       </div>
     );

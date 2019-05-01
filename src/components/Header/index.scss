@@ -3,7 +3,7 @@
   left: 0;
   right: 0;
   z-index: 999;
-  background: #000;
+  background: #FFFFFF;
   min-width: 1200px;
   .header-content {
     position: relative;
@@ -16,6 +16,8 @@
   }
 
   .next-nav {
+    position: absolute;
+    left: 200px;
     background: transparent !important;
     margin-right: 100px;
     box-shadow: none;
@@ -23,16 +25,16 @@
     .next-menu-item {
       background-color: transparent !important;
       font-weight: 600;
-      color: #fff !important;
+      color: #000000 !important;
       .next-menu-item-inner {
         font-size: 14px !important;
       }
       &.next-selected {
-        color:  hsla(0, 0%, 100%, 0.7) !important;
+        color:  rgb(35, 108, 255) !important
       }
       &:hover,
       a:hover {
-        color: hsla(0, 0%, 100%, 0.7);
+        color: rgb(35, 108, 255);
       }
     }
     // .ice-menu-item-selected {
@@ -46,9 +48,9 @@
     display: block;
     line-height: 28px;
     transition: all 0.3s;
-    width: 82px;
-    padding: 0 16px;
-    color: #fff;
+    width: 100px;
+    padding: 0 10px;
+    color: #000000;
     border: 1px solid #fff;
     font-weight: 600;
     font-size: 12px;

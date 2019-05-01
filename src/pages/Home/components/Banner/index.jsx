@@ -23,27 +23,18 @@ export default class Banner extends Component {
           className="home-title"
         >
           <div key="content" style={styles.content}>
-            <div style={styles.title}>
+            {/*<div style={styles.title}>
               <img
                 src={require('./images/logo2.png')}
                 alt=""
                 style={styles.titlePic}
               />
-            </div>
-
-            <div style={styles.time}>
-              {/* <img
-                src="https://img.alicdn.com/tfs/TB1eBaZGN9YBuNjy0FfXXXIsVXa-896-68.png"
-                alt=""
-                style={styles.timePic}
-              /> */}
-            </div>
-
-            <div style={styles.button}>
+            </div>*/}
+            {/*<div style={styles.button}>
               <a href="#" style={styles.link}>
                 欢迎
               </a>
-            </div>
+            </div>*/}
           </div>
         </QueueAnim>
       </div>

@@ -21,8 +21,8 @@ export default class GuestSlider extends Component {
 
   render() {
     const settings = {
-      className: 'guest-slider',
-      autoplay: true,
+      className: 'product-slider',
+      autoplay: false,
       centerMode: true,
       infinite: true,
       centerPadding: '0',
@@ -32,6 +32,12 @@ export default class GuestSlider extends Component {
     return (
       <div style={styles.container}>
         <div style={styles.content}>
+          <h3 style={styles.hyThirdPartyTitle}>
+              推荐产品
+            <a style={styles.thirdPartyMore} href="#">
+              更多...
+            </a>
+          </h3>
           <Slider {...settings}>
             {MOCK_DATA.map((item, index) => {
               return (
@@ -56,11 +62,38 @@ export default class GuestSlider extends Component {
 const styles = {
   container: {
     width: '100%',
-    height: '800px',
-    background:
-      '#000 url(https://img.alicdn.com/tfs/TB1Cf27AKSSBuNjy0FlXXbBpVXa-1904-800.png) no-repeat center center',
+    height: '425px',
+    background: '#ffffff',
     backgroundSize: 'cover',
     overflow: 'hidden',
+    textAlign: 'center',
+    width: '1200px',
+    margin: '0px auto'
+  },
+  content:{
+     textAlign: 'center',
+    width: '1200px',
+    margin: '0 auto',
+  },
+  hyThirdPartyTitle: {
+    position: 'relative',
+    fontFamily: 'Microsoft YaHei',
+    fontSize: '26px',
+    lineHeight: '40px',
+    color: '#999',
+    fontWeight: '400',
+    verticalAlign: 'middle',
+    marginBottom: '40px',
+  },
+  thirdPartyMore: {
+    position: 'absolute',
+    right: '0',
+    top: '12px',
+    color: '#108ee9',
+    fontSize: '14px',
+    lineHeight: '18px',
+    fontWeight: '400',
+    textDecoration: 'none',
   },
   item: {
     float: 'left',
@@ -73,18 +106,23 @@ const styles = {
     position: 'absolute',
     left: '10%',
     width: '80%',
-    bottom: '5%',
+    top: '240px',
     textAlign: 'left',
     overflow: 'hidden',
+    textAlign: 'center',
+    overflow: 'hidden',
+    backgroundColor: '#d6d6d6',
+    opacity: '0.7',
+    zIndex: '10',
   },
   name: {
     margin: '0',
-    color: '#fff',
+    color: '#000000',
     lineHeight: '26px',
     fontSize: '18px',
   },
   job: {
-    color: '#fff',
+    color: 'rgb(35, 108, 255)',
     lineHeight: '16px',
     fontSize: '12px',
   },

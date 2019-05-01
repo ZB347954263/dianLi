@@ -120,7 +120,7 @@ export default class CardItems extends Component {
 
 const styles = {
   hyThirdPartyWrapper: {
-    background: '#000000',
+    background: '#FFFFFF',
     minWidth: '1280px',
   },
   hyThirdParty: {
@@ -186,7 +186,7 @@ const styles = {
     marginRight: '0',
   },
   thirdPartyDetailImg: {
-    width: '270px',
+    width: '266px',
     height: '180px',
     borderRadius: '2px 2px 0 0',
     position: 'relative',
