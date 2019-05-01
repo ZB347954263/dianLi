@@ -22,7 +22,7 @@ export default class GuestSlider extends Component {
   render() {
     const settings = {
       className: 'product-slider',
-      autoplay: false,
+      autoplay: true,
       centerMode: true,
       infinite: true,
       centerPadding: '0',
