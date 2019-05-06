@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import GuestSlider from './components/GuestSlider';
-import GuestList from './components/GuestList';
+// import GuestSlider from './components/GuestSlider';
+// import GuestList from './components/GuestList';
+import AboutUs from './components/AboutUs';
 
 export default class Guests extends Component {
   static displayName = 'Guests';
@@ -17,8 +18,7 @@ export default class Guests extends Component {
   render() {
     return (
       <div>
-        <GuestSlider />
-        <GuestList />
+        <AboutUs />
       </div>
     );
   }
