@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Partner from './components/Partner';
+// import Partner from './components/Partner';
+import MapWithAMarker from './components/MapWithAMarker';
 
 export default class PartnerPage extends Component {
   static displayName = 'PartnerPage';
@@ -16,7 +17,7 @@ export default class PartnerPage extends Component {
   render() {
     return (
       <div>
-        <Partner />
+        <MapWithAMarker />
       </div>
     );
   }
