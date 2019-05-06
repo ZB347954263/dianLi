@@ -21,4 +21,8 @@
     right: 10px;
     z-index: 9;
   }
+  .slick-prev:before,
+  .slick-next:before {
+    color:#000;
+  }
 }

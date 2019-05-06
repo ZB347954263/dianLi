@@ -5,11 +5,21 @@
 import Home from './pages/Home';
 import Guests from './pages/Guests';
 import Partner from './pages/Partner';
+import Product from './pages/Product';
+import ProductInfo from './pages/ProductInfo';
 
 const routerConfig = [
   {
     path: '/guests',
     component: Guests,
+  },
+  {
+    path: '/product',
+    component: Product,
+  },
+   {
+    path: '/productInfo',
+    component: ProductInfo,
   },
   {
     path: '/partner',

@@ -30,6 +30,7 @@
     "@icedesign/container": "^1.x",
     "@icedesign/foundation-symbol": "^1.x",
     "@icedesign/layout": "^1.x",
+    "@icedesign/img": "^1.x",
     "classnames": "^2.2.5",
     "moment": "^2.23.0",
     "prop-types": "^15.5.8",
