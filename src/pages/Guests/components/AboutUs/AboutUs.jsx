@@ -71,6 +71,6 @@ const styles = {
     width: '100%',
     margin: '0 auto',
     display: 'block',
-    maxWidth: '360px',
+    maxWidth: '400px',
   },
 };
