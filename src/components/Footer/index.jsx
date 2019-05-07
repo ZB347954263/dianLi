@@ -45,7 +45,7 @@ export default () => {
 const styles = {
   container: {
     background: '#0e0e0e',
-    padding: '54px 0 70px',
+    padding: '50px 0 50px',
   },
   content: {
     maxWidth: '1200px',
@@ -78,8 +78,8 @@ const styles = {
     paddingLeft: '100px',
   },
   qrcode: {
-    width: '82px',
-    height: '82px',
+    width: '100px',
+    height: '100px',
     position: 'absolute',
     top: '0',
     left: '0',

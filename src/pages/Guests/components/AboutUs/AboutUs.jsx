@@ -56,7 +56,7 @@ const styles = {
   },
   col: {
     width: '48%',
-    padding: '0 1%',
+    padding: '1%',
   },
   title: {
     textIndent: '2em',
