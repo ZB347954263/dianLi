@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PictureTextList from './components/PictureTextList';
+import Products from './components/Products';
 
 
 export default class Product extends Component {
@@ -17,7 +18,8 @@ export default class Product extends Component {
   render() {
     return (
       <div>
-        <PictureTextList/>
+        <Products/>
+        {/*<PictureTextList/>*/}
       </div>
     );
   }
