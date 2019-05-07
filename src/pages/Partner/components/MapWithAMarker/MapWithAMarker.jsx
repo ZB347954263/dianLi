@@ -30,8 +30,8 @@ export default class MapWithAMarker extends Component {
             <p>电     话：86 0577 61987230</p>
             <p>移动电话：13058105983</p>
             <p>地      址：中国 浙江 乐清市 象阳镇四板桥村四板桥工业区</p>
-            <p>公司主页：http://www.qiangchidl.com
-                   <br/>        https://qiangchidl.1688.com</p>
+            <p>公司主页：http://www.qiangchidl.com</p>
+            <p>1688官网：https://qiangchidl.1688.com</p>
           </div>
           <Map plugins={['ToolBar']} center={config.position} zoom={15} >
             <Marker position={config.position} visible={config.visible} title={config.content}/>
