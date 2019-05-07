@@ -65,7 +65,7 @@ const styles = {
     fontWeight: 'bold',
   },
   description: {
-    color: '#999',
+    color: '##333',
     lineHeight: '22px',
   },
   image: {
