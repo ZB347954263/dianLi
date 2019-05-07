@@ -94,7 +94,8 @@ export default class Header extends Component {
                 );
               })}
           </Nav>
-          <a target="_blank" href="https://m.1688.com/winport/b2b-2200741019192ee6c4.html?memberId=b2b-2200741019192ee6c4" className="ticket-button">
+          {/* <a target="_blank" href="https://m.1688.com/winport/b2b-2200741019192ee6c4.html?memberId=b2b-2200741019192ee6c4" className="ticket-button"> */}
+          <a target="_blank" href="https://qiangchidl.1688.com/" className="ticket-button">
             立即购买
           </a>
         </div>
