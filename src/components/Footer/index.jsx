@@ -24,7 +24,7 @@ export default () => {
           <Col l="6">
             <div style={styles.rightContent}>
               <img
-                src={require('./images/TB1fQ48QFXXXXc7XVXXXXXXXXXX-94-94.png')}
+                src={require('./images/gongzhonghao.jpg')}
                 alt=""
                 style={styles.qrcode}
               />
