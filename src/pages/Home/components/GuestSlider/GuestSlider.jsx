@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
+import { BrowserRouter as Router, Link} from "react-router-dom";
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './index.scss';
 
 import MOCK_DATA from './data';
+
+
 
 export default class GuestSlider extends Component {
   static displayName = 'GuestSlider';
@@ -36,7 +39,7 @@ export default class GuestSlider extends Component {
           <h3 style={styles.hyThirdPartyTitle}>
               推荐产品
             <a style={styles.thirdPartyMore} href="#">
-              更多...
+              <Link to='/product'>更多...</Link>
             </a>
           </h3>
           <Slider {...settings}>
@@ -47,7 +50,11 @@ export default class GuestSlider extends Component {
                     <img src={item.avatar} alt="" style={styles.img} />
                     <div style={styles.info}>
                       <h4 style={styles.name}>{item.name}</h4>
-                      <p style={styles.job}>{item.job}</p>
+                      <p style={styles.job}>
+                        <a href="#">
+                          <Link to= {{path: '/productInfo', pathname : '/productInfo', state : { id: item.id }}} >{item.job}</Link>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -81,7 +88,7 @@ const styles = {
     fontFamily: 'Microsoft YaHei',
     fontSize: '26px',
     lineHeight: '40px',
-    color: '#999',
+    color: '#000',
     fontWeight: '400',
     verticalAlign: 'middle',
     marginBottom: '40px',
@@ -112,7 +119,7 @@ const styles = {
     overflow: 'hidden',
     textAlign: 'center',
     overflow: 'hidden',
-    backgroundColor: '#d6d6d6',
+    backgroundColor: '#e1f3fd',
     opacity: '0.7',
     zIndex: '10',
   },
