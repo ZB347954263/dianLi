@@ -29,9 +29,9 @@ export default () => {
                 style={styles.qrcode}
               />
               <div style={styles.textBox}>
-                <p style={styles.subtit}>下载</p>
+                <p style={styles.subtit}>公众号</p>
                 <p style={styles.text}>
-                  随时了解
+                  微信扫码关注
                 </p>
               </div>
             </div>
